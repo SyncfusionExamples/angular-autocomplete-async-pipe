@@ -1,27 +1,33 @@
-# SyncfusionAngularTextbox
+# Binding observable data to an Angular AutoComplete
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
+Learn how you can bind observable data to the Syncfusion Angular AutoComplete component. This example explains how to bind observables using the async pipe to subscribe to observable objects and get the latest emitted values.
 
-## Development server
+# Project prerequisites
+Make sure you have the compatible versions of TypeScript and Angular on your machine before starting to work on this project:
+* Angular 4+
+* TypeScript 2.6+
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to run this application
+To run this application, you need to first clone the `angular-autocomplete-async-pipe` repository and then navigate to the path where it has been copied to your system.
 
-## Code scaffolding
+To do this, open the Command Prompt and run the following commands, one after the other:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+git clone https://github.com/SyncfusionExamples/angular-autocomplete-async-pipe.git
 
-## Build
+cd angular-combobox-async-pipe
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
+Once done with downloading, you need to install the necessary packages required to run this application locally. To do so, run the following command:
 
-## Running unit tests
+```
+npm install
+```
+This will install all the needed Angular packages into your current project.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running on a development server
+Run the `ng serve` command for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## See Also
+Documentation - https://ej2.syncfusion.com/angular/documentation/auto-complete/data-binding#data-binding-using-async-pipe
